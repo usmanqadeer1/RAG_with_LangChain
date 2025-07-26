@@ -18,29 +18,6 @@ A full-stack, streaming AI chatbot application built with:
 
 ---
 
-## 📁 Project Structure
-
-rag-with-langchain/
-│
-├── backend/
-│ ├── ingest.py # Loads and chunks documents, creates FAISS index
-│ ├── rag_chain.py # Defines RAG chain using LangChain and Ollama
-│ ├── app.py # FastAPI app exposing a /chat streaming endpoint
-│ └── docs/ # Optional: Folder to store any local files
-│
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── Chat.js # React chat component with streaming logic
-│ │ └── index.js # App entry point
-│ └── package.json # React app config
-│
-├── requirements.txt # Python dependencies
-└── README.md 
-
-
----
-
 ## 🔧 Installation
 
 ### 1. Backend Setup
